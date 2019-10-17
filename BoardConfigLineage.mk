@@ -1,4 +1,4 @@
-# Custom Carbon BoardConfig for wahoo
+# Custom crdroid BoardConfig for wahoo
 # Inline kernel building
 TARGET_KERNEL_CONFIG := wahoo_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
