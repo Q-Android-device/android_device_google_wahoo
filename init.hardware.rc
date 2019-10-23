@@ -465,8 +465,6 @@ on boot
     chmod 0660 /sys/class/rfkill/rfkill0/state
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/device/extldo
     chmod 0660 /sys/class/rfkill/rfkill0/device/extldo
-    chown system system /sys/class/zram-control/hot_add
-    chown system system /sys/class/zram-control/hot_remove
 
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
