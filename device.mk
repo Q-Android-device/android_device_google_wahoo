@@ -51,7 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
 
 PRODUCT_PACKAGES += \
-    ucontainer \
     messaging
 
 LOCAL_PATH := device/google/wahoo
