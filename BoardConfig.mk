@@ -171,8 +171,6 @@ BOARD_VNDK_VERSION := current
 # Generate an APEX image for experiment b/119800099.
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
--include device/google/wahoo/BoardConfigLineage.mk
-
 # Board uses A/B OTA.
 AB_OTA_UPDATER := true
 
@@ -181,3 +179,5 @@ AB_OTA_PARTITIONS += \
     system \
     vbmeta \
     dtbo
+
+-include device/google/wahoo/BoardConfigLineage.mk
