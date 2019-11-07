@@ -724,3 +724,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.gfx.angle.supported=true
 
 -include device/google/wahoo/device-lineage.mk
+
