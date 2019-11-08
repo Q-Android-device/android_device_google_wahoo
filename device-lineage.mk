@@ -15,3 +15,8 @@ PRODUCT_COPY_FILES += \
 
 # Include AmbientSense if it's available
 -include vendor/ambientmusic/AmbientMusic.mk
+
+# Theme
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=org.lineageos.overlay.dark
+    
